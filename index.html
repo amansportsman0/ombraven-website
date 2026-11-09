@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMBRAVEN Technology Group | One Vision. Infinite Possibilities.</title>
+    <meta name="description" content="OMBRAVEN Technology Group - Premium technology solutions in Web Development, Graphic Design, and Digital Solutions. One Vision. Infinite Possibilities.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="logo">
+                    <span class="logo-text">OMBRAVEN</span>
+                    <span class="logo-sub">Technology Group</span>
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-link dropdown-toggle">Our Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#web-development">Web Development</a></li>
+                            <li><a href="#graphic-design">Graphic Design</a></li>
+                            <li><a href="#digital-solutions">Digital Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home / Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>OMBRAVEN Technology Group</h1>
+            <p class="tagline">One Vision. Infinite Possibilities.</p>
+            <p class="hero-description">We transform ideas into powerful digital experiences through innovative web development, creative graphic design, and strategic digital solutions.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                <a href="#contact" class="btn btn-secondary">Start a Project</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card1"></div>
+            <div class="floating-card card2"></div>
+            <div class="floating-card card3"></div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p class="section-subtitle">Building the Future of Digital Innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>OMBRAVEN Technology Group is a professional technology company focused on delivering high-quality digital solutions. We specialize in creating modern websites, compelling visual identities, and comprehensive digital strategies that help businesses grow and succeed in the digital landscape.</p>
+                    <p>Our approach is guided by a single vision: to unlock infinite possibilities for our clients through technology, creativity, and strategic thinking. We believe every business deserves access to premium digital experiences that reflect their unique identity and drive measurable results.</p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Innovation</h4>
+                            <p>Pushing boundaries with modern technologies and creative solutions</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Partnership</h4>
+                            <p>Working closely with clients to understand and achieve their goals</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-award"></i>
+                            <h4>Excellence</h4>
+                            <p>Delivering premium quality in every project we undertake</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Overview -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p class="section-subtitle">Comprehensive Technology Solutions for Modern Businesses</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies, optimized for performance, security, and user experience.</p>
+                    <a href="#web-development" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Graphic Design</h3>
+                    <p>Professional visual identities, branding materials, and creative assets that communicate your brand's unique story.</p>
+                    <a href="#graphic-design" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Digital Solutions</h3>
+                    <p>Strategic digital services including SEO, digital marketing, e-commerce solutions, and technology consulting.</p>
+                    <a href="#digital-solutions" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Development -->
+    <section id="web-development" class="service-detail">
+        <div class="container">
+            <div class="section-header">
+                <h2>Web Development</h2>
+                <p class="section-subtitle">Building Powerful Digital Platforms</p>
+            </div>
+            <div class="detail-content">
+                <div class="detail-text">
+                    <p>We create responsive, high-performance websites and web applications tailored to your business needs. From simple landing pages to complex e-commerce platforms and custom web applications, our development process focuses on clean code, modern frameworks, and exceptional user experiences.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive & Mobile-First Design</li>
+                        <li><i class="fas fa-check"></i> Custom Web Applications</li>
+                        <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        <li><i class="fas fa-check"></i> SEO-Friendly Architecture</li>
+                        <li><i class="fas fa-check"></i> Ongoing Maintenance & Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Enquire About Web Development</a>
+                </div>
+                <div class="detail-visual">
+                    <div class="visual-placeholder web-visual">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Graphic Design -->
+    <section id="graphic-design" class="service-detail alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Graphic Design</h2>
+                <p class="section-subtitle">Crafting Visual Identities That Inspire</p>
+            </div>
+            <div class="detail-content reverse">
+                <div class="detail-visual">
+                    <div class="visual-placeholder design-visual">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                </div>
+                <div class="detail-text">
+                    <p>Our graphic design services help businesses establish strong visual identities that resonate with their audience. We create cohesive brand systems, marketing materials, and digital assets that communicate professionalism and creativity.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Logo & Brand Identity Design</li>
+                        <li><i class="fas fa-check"></i> Marketing Collateral</li>
+                        <li><i class="fas fa-check"></i> Social Media Graphics</li>
+                        <li><i class="fas fa-check"></i> UI/UX Design Concepts</li>
+                        <li><i class="fas fa-check"></i> Print & Digital Assets</li>
+                        <li><i class="fas fa-check"></i> Brand Guidelines</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Enquire About Graphic Design</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Solutions -->
+    <section id="digital-solutions" class="service-detail">
+        <div class="container">
+            <div class="section-header">
+                <h2>Digital Solutions</h2>
+                <p class="section-subtitle">Strategic Technology for Business Growth</p>
+            </div>
+            <div class="detail-content">
+                <div class="detail-text">
+                    <p>Beyond design and development, we offer strategic digital solutions that help businesses maximize their online presence and operational efficiency. Our services are designed to drive growth through technology and data-driven strategies.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Digital Strategy Consulting</li>
+                        <li><i class="fas fa-check"></i> Search Engine Optimization (SEO)</li>
+                        <li><i class="fas fa-check"></i> E-commerce Platform Setup</li>
+                        <li><i class="fas fa-check"></i> Content Management Systems</li>
+                        <li><i class="fas fa-check"></i> Analytics & Performance Tracking</li>
+                        <li><i class="fas fa-check"></i> Technology Integration</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Enquire About Digital Solutions</a>
+                </div>
+                <div class="detail-visual">
+                    <div class="visual-placeholder digital-visual">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p class="section-subtitle">Selected Work & Project Concepts</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Modern online store with custom product catalog, secure checkout, and responsive design optimized for conversions.</p>
+                        <span class="portfolio-tag">Web Development</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder"><i class="fas fa-building"></i></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Corporate Website</h3>
+                        <p>Professional multi-page website for a technology firm featuring clean navigation, service pages, and lead generation forms.</p>
+                        <span class="portfolio-tag">Web Development</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder"><i class="fas fa-id-card"></i></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Identity System</h3>
+                        <p>Complete visual identity including logo, color palette, typography, and brand guidelines for a startup company.</p>
+                        <span class="portfolio-tag">Graphic Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder"><i class="fas fa-mobile-alt"></i></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Mobile App UI Design</h3>
+                        <p>User interface designs for a service booking application focusing on intuitive navigation and modern aesthetics.</p>
+                        <span class="portfolio-tag">Graphic Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder"><i class="fas fa-search"></i></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>SEO & Content Strategy</h3>
+                        <p>Digital strategy project focused on improving search visibility and developing a content plan for organic growth.</p>
+                        <span class="portfolio-tag">Digital Solutions</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder"><i class="fas fa-store"></i></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Online Marketplace Setup</h3>
+                        <p>End-to-end e-commerce solution including platform configuration, payment integration, and user experience optimization.</p>
+                        <span class="portfolio-tag">Digital Solutions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta">
+                <p>Interested in working together on your next project?</p>
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p class="section-subtitle">Let's Discuss Your Next Project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to transform your vision into reality? Reach out to discuss how OMBRAVEN Technology Group can help with your web development, graphic design, or digital solution needs.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/918709727239?text=Hello%20OMBRAVEN%20Team%2C%20I%20am%20interested%20in%20your%20digital%20services.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer">+91 8709727239</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="contact-note">Chat with us on WhatsApp for the fastest response.</p>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Graphic Design">Graphic Design</option>
+                                <option value="Digital Solutions">Digital Solutions</option>
+                                <option value="Other / Multiple">Other / Multiple</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Submit Enquiry</button>
+                        <p class="form-disclaimer">Your details will open in WhatsApp. You must press Send in WhatsApp to submit the enquiry. Nothing is sent until you do so.</p>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-text">OMBRAVEN</span>
+                        <span class="logo-sub">Technology Group</span>
+                    </a>
+                    <p class="footer-tagline">One Vision. Infinite Possibilities.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#web-development">Web Development</a></li>
+                        <li><a href="#graphic-design">Graphic Design</a></li>
+                        <li><a href="#digital-solutions">Digital Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Connect</h4>
+                    <p><a href="https://wa.me/918709727239?text=Hello%20OMBRAVEN%20Team%2C%20I%20am%20interested%20in%20your%20digital%20services.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer">WhatsApp: +91 8709727239</a></p>
+                    <div class="social-links">
+                        <span class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></span>
+                        <span class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></span>
+                        <span class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 OMBRAVEN Technology Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/918709727239?text=Hello%20OMBRAVEN%20Team%2C%20I%20am%20interested%20in%20your%20digital%20services.%20Please%20share%20more%20details." 
+       class="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
