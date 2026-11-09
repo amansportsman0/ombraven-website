@@ -1045,3 +1045,75 @@ header .logo img.brand-logo {
         height: 45px;
     }
 }
+/* OMBRAVEN FINAL HEADER AND WHATSAPP FIX */
+
+header .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    min-height: 80px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+header .logo img.brand-logo {
+    display: block;
+    width: 150px !important;
+    height: 48px !important;
+    max-height: 48px !important;
+    object-fit: contain;
+}
+
+header .nav-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
+
+header .nav-menu li,
+header .nav-menu a {
+    white-space: nowrap;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-btn {
+    display: flex !important;
+    position: fixed !important;
+    right: 25px !important;
+    bottom: 25px !important;
+    width: 58px !important;
+    height: 58px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #25D366 !important;
+    color: #ffffff !important;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    z-index: 99999 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+@media (max-width: 768px) {
+    header .nav-container {
+        min-height: 70px;
+    }
+
+    header .logo img.brand-logo {
+        width: 125px !important;
+        height: 42px !important;
+    }
+
+    header .nav-menu {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
