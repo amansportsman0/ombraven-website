@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amansportsman0.github.io/ombraven-website/sitemap.xml
