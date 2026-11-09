@@ -1024,3 +1024,24 @@ footer .logo img.brand-logo {
         height: 40px !important;
     }
 }
+/* OMBRAVEN TRANSPARENT LOGO */
+header .logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+header .logo img.brand-logo {
+    width: 160px;
+    height: 55px;
+    max-height: 55px;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    header .logo img.brand-logo {
+        width: 125px;
+        height: 45px;
+    }
+}
